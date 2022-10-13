@@ -1,0 +1,35 @@
+<!--pages/robot_human/robot_human.wxml-->
+<view>
+  <image class='background' src="/image/background.png" ></image>
+</view>
+<view>
+  <image class="player1" src='/image/03.jpg' mode="heightFix"></image>
+</view>
+<view class="player1cell">
+  <view wx:for="{{cell1}}"  wx:key="index" class="cell" bindtap="set1" data-index="{{index}}">
+    <image wx:if="{{item.type>0}}" src="{{item.img}}" class="celldice" >
+    </image>
+  </view> 
+
+  <image wx:if="{{num==1}}" class="touzi" src='/image/1.png'></image>
+  <image wx:if="{{num==2}}" class="touzi" src='/image/2.png'></image>
+  <image wx:if="{{num==3}}" class="touzi" src='/image/3.png'></image>
+  <image wx:if="{{num==4}}" class="touzi" src='/image/4.png'></image>
+  <image wx:if="{{num==5}}" class="touzi" src='/image/5.png'></image>
+  <image wx:if="{{num==6}}" class="touzi" src='/image/6.png'></image>
+</view>
+<view>
+  <image class="player2" src='/pages2/mmexport1665502122290.png' mode="heightFix"></image>
+</view>
+<view class="player2cell">
+  <view wx:for="{{cell2}}"  wx:key="index" class="cell" bindtap="set2" data-index="{{index}}">
+    <image wx:if="{{item.type>0}}" src="{{item.img}}" class="celldice" >
+    </image>
+  </view> 
+</view> 
+<!-- 显示player1目前分数 -->
+<view><text class="sco1">分数{{score1}}</text></view>
+<!-- 显示player2目前分数 -->
+<view><text class="sco2">分数{{score2}}</text></view>
+<button class="button2" style="width: 30%" bindtap="btnStart">丢骰子 </button>
+<button class="button3" style="width: 30%" bindtap="btnEnd">骰子停止 </button>

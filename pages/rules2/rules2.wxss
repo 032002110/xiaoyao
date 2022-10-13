@@ -1,0 +1,42 @@
+/* pages/rules2/rules2.wxss */
+.img{
+  left: 0rpx;
+  top: 0rpx;
+  width: 740rpx;
+  height: 2200rpx;
+  background-size: 100% 100%;
+  z-index: -1;
+  position: relative;
+}
+.img2{
+  left: 50rpx;
+  top: 0rpx;
+  width: 650rpx;
+  height: 500rpx;
+  z-index: 1;
+  position: absolute;
+}
+.img3{
+  left: 50rpx;
+  top: 550rpx;
+  width: 650rpx;
+  height: 500rpx;
+  z-index: 1;
+  position: absolute;
+}
+.img4{
+  left: 50rpx;
+  top: 1100rpx;
+  width: 650rpx;
+  height: 500rpx;
+  z-index: 1;
+  position: absolute;
+}
+.img5{
+  left: 50rpx;
+  top: 1650rpx;
+  width: 650rpx;
+  height: 500rpx;
+  z-index: 1;
+  position: absolute;
+}

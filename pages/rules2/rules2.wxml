@@ -1,0 +1,10 @@
+<!--pages/rules2/rules2.wxml-->
+<!-- 背景 -->
+<view>
+<image class="img" src="/image/background.png" mode="scaleToFill"></image>
+<!-- 规则 -->
+<image class="img2" src="/image/10.png"></image> 
+<image class="img3" src="/image/11.png"></image> 
+<image class="img4" src="/image/12.png"></image> 
+<image class="img5" src="/image/13.png"></image> 
+</view>

@@ -1,0 +1,83 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+/* 登入按钮的渲染 */
+.button_bin{
+  left: 200rpx;
+  top: 800rpx;
+  width: 247rpx;
+  height: 104rpx;
+  line-height: 29px;
+  opacity: 0.8;
+  border-radius: 40px 40px 40px 40px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 20px;
+  text-align: center;
+  font-family: Arial;
+  border: 1px solid rgba(187, 187, 187, 1);
+  z-index: 1;
+  position: absolute;
+}
+/* 背景的渲染 */
+.img{
+  left: 0rpx;
+  top: 0rpx;
+  width: 740rpx;
+  height: 1440rpx;
+  background-size: 100% 100%;
+  z-index: -1;
+  position: relative;
+}
+/* 文本的渲染 */
+.text_{
+  left: 292rpx;
+  top: 596rpx;
+  width: 200rpx;
+  height: 104rpx;
+  color: rgba(16, 16, 16, 1);
+  font-size: 55rpx;
+  text-align: left;
+  font-family: 方正楷体-标准;
+  z-index: 2;
+  position: absolute;
+}
+/* 骰子的渲染 */
+.dice{
+  left: 285rpx;
+  top: 400rpx;
+  width: 179rpx;
+  height: 171rpx; 
+  opacity: 0.7;
+  z-index: 2;
+  position: absolute;
+}
+/* 登入文本渲染 */
+.text_2{
+  left: 340rpx;
+  top: 100rpx;
+  width: 72rpx;
+  height: 104rpx;
+  color: rgba(16, 16, 16, 1);
+  font-size: 35rpx;
+  text-align: left;
+  font-family: 方正楷体-标准;
+  z-index: 2;
+  position: absolute;
+}

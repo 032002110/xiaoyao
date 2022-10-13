@@ -1,0 +1,18 @@
+/* pages/victory/victory.wxss */
+.img{
+  left: 0rpx;
+  top: 0rpx;
+  width: 740rpx;
+  height: 1440rpx;
+  background-size: 100% 100%;
+  z-index: -1;
+  position: relative;
+}
+
+.button_bin{
+  left: 230rpx;
+  top: 800rpx;
+  opacity: 0.8;
+  z-index: 2;
+  position: absolute;
+}

@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<!-- <view >
+
+      <view wx:else>
+          <block class="userinfo-top">
+              <image class="userinfo-avatar" src="{{userInformation.avatarUrl}}" mode="cover"></image>
+              <text class="userinfo-nickname">{{userInformation.nickName}}</text>
+              <text class="userinfo-nickname1">Hello World</text>
+          </block>
+      </view>
+</view> -->
+<view >
+  <image class="img" src="/image/background.png" mode="scaleToFill"></image>
+  <button class="button_bin" bindtap="getUserProfile">点击登入</button>
+  <image class="dice" src="/image/dice.jpeg"></image> 
+  <text class="text_">逍遥骰</text>
+  <text class="text_2">登入</text>
+  
+</view>

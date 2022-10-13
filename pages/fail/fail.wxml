@@ -1,0 +1,3 @@
+<!--pages/fail/fail.wxml-->
+<image class="img" src="/image/lose.jpg" mode="scaleToFill"></image>
+<button class="button_bin" bindtap="back">返回菜单</button>

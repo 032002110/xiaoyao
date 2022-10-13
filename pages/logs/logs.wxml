@@ -1,0 +1,14 @@
+<!--logs.wxml-->
+<view >
+<image class="img" src="/image/background2.png"></image>
+<button class="button_bin1" bindtap="jumplocal">本地对战</button>
+<button class="button_bin2" bindtap="jumphuman">人机对战（困难）</button>
+<button class="button_bin3" bindtap="jumprobat">人机对战（简单）</button>
+<button class="button_bin4" bindtap="jumprules">游戏规则</button>
+<button class="tapbtn1" plain="true" bindtap="skyOnclick">
+    <image class="tapimg1" src='/image/排行榜.jpg'></image>
+
+</button>
+<!--index.wxml-->
+
+</view>

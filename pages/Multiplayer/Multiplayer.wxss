@@ -1,0 +1,151 @@
+
+page{
+  height:100%;
+}
+/* 背景图片的渲染 */
+.background {
+  left: 0rpx;
+  top: 0rpx;
+  width: 740rpx;
+  height: 1440rpx;
+  position: relative;
+  z-index: -1;
+}
+  .button{
+  left: 0px;
+  top: 0px;
+  width: 50px;
+  height: 30px;
+  opacity: 0.9;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgba(117, 249, 253, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  }
+
+.player1{
+  left: 100rpx;
+  top: 150rpx;
+  width: 120rpx;
+  height: 120rpx;
+  position: absolute;
+  z-index: 2;
+}
+
+.touzi{
+ left: 50rpx;
+ top: 500rpx;
+ width: 180rpx;
+ height: 180rpx;
+ position: absolute;
+ z-index: -1;
+}
+.button1{
+top: 550rpx;
+left: 360rpx;
+width: 100rpx;
+height: 60rpx;
+border-radius: 4rpx;
+background-color: rgba(189, 49, 36, 1);
+color: rgba(255, 255, 255, 1);
+font-size: 14px;
+text-align: center;
+font-family: Microsoft Yahei;
+position: absolute;
+z-index: 2;
+}
+.player2{
+  left: 100rpx;
+  top: 850rpx;
+  width: 120rpx;
+  height: 120rpx;
+  position: absolute;
+  z-index: 2;
+}
+.button2{
+  top: 1250rpx;
+  left: 360rpx;
+  width: 160rpx;
+  height: 60rpx;
+  border-radius: 4rpx;
+  background-color: rgba(189, 49, 36, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  position: absolute;
+  z-index: 2;
+}
+
+
+.player1cell{
+  top: 100rpx;
+  left: 250rpx;
+  /* 这里width选择432rpx会造成真机展示出问题 */
+  width: 460rpx;
+  height: 432rpx;
+  border-top:2px solid #ddd;
+  border-right: 2px solid #ddd;
+  position: absolute;
+  z-index: 3;
+  }
+.cell{
+  border-left: 2px solid #ddd;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:red;
+  font-size:100rpx;
+  float: left;
+  border-bottom: 2px solid #ddd;
+}
+.player2cell{
+  top: 800rpx;
+  left: 250rpx;
+  width: 460rpx;
+  height: 432rpx;
+  border-top:2px solid #ddd;
+  border-right: 2px solid #ddd;
+  position: absolute;
+  z-index: 3;
+}
+.celldice{
+  width: 72px;
+  height: 72px;
+}
+/* f分数的渲染 */
+.sco1{
+  top: 100rpx;
+  left: 120rpx;
+  width: 200rpx;
+  height: 50rpx;
+  position: absolute;
+  z-index: 2;
+}
+.sco2{
+  top: 800rpx;
+  left: 120rpx;
+  width: 200rpx;
+  height: 50rpx;
+  position: absolute;
+  z-index: 2;
+}
+.button3{
+  top: 1250rpx;
+  left: 120rpx;
+  width: 160rpx;
+  height: 60rpx;
+  border-radius: 4rpx;
+  background-color: rgba(189, 49, 36, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  position: absolute;
+  z-index: 2;
+}

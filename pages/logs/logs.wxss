@@ -1,0 +1,104 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.img{
+  left: 0rpx;
+  top: 0rpx;
+  width: 740rpx;
+  height: 1440rpx;
+  position: relative;
+  z-index: -1;
+}
+
+/* 本地对战按钮渲染 */
+.button_bin1{
+  left: 200rpx;
+  top: 600rpx;
+  width: 202rpx;
+  height: 86rpx;
+  opacity: 0.8;
+  border-radius: 30rpx;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  position: absolute;
+  z-index: 1;
+}
+/* 人人对战按钮渲染 */
+.button_bin2{
+  left: 200rpx;
+  top: 730rpx;
+  width: 202rpx;
+  height: 86rpx;
+  opacity: 0.8;
+  border-radius: 30rpx;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  position: absolute;
+  z-index: 1;
+}
+/* 人机对战按钮渲染 */
+.button_bin3{
+  left: 200rpx;
+  top: 860rpx;
+  width: 202rpx;
+  height: 86rpx;
+  opacity: 0.8;
+  border-radius: 30rpx;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  position: absolute;
+  z-index: 1;
+}
+/**index.wxss**/
+ 
+.tapimg1{  
+  top: 0rpx;
+  width: 150rpx;
+  height: 150rpx;
+}
+ 
+.tapbtn1[plain]{
+  opacity: 0.8;
+  top: 1220rpx;
+  left: 40rpx;
+  padding: 0;
+  border:none;   
+  width: 150rpx;
+  height: 150rpx;
+  position: absolute;
+  z-index: 2;
+}
+/* 游戏规则按钮渲染 */
+.button_bin4{
+  left: 200rpx;
+  top: 990rpx;
+  width: 202rpx;
+  height: 86rpx;
+  opacity: 0.8;
+  border-radius: 30rpx;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(187, 187, 187, 1);
+  position: absolute;
+  z-index: 1;
+}

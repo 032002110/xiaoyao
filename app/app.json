@@ -1,0 +1,23 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/2/2",
+    "pages/Multiplayer/Multiplayer",
+    "pages/ranking/ranking",
+    "pages/local_battle/local_battle",
+    "pages/rules2/rules2",
+    "pages/robot_human/robot_human",
+    "pages/victory/victory",
+    "pages/fail/fail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffe8f4",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
